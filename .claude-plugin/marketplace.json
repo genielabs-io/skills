@@ -1,0 +1,23 @@
+{
+  "name": "genielabs-io",
+  "owner": {
+    "name": "genielabs-io",
+    "email": "opensource@genielabs.io"
+  },
+  "metadata": {
+    "description": "genielabs-io Claude skill marketplace built from canonical skill sources.",
+    "version": "0.1.0"
+  },
+  "plugins": [
+    {
+      "name": "genielabs-skills",
+      "description": "Collection of GenieLabs skills for session wrap-up and hidden Unicode security scanning.",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./skills/wrap",
+        "./skills/unicode-guard"
+      ]
+    }
+  ]
+}
