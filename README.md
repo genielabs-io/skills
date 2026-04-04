@@ -1,4 +1,6 @@
-# genielabs-io Skills Repository
+> **Note:** This repository contains GenieLabs skills for AX-powered coding and learning workflows in Claude Code. For information about the Agent Skills standard, see [agentskills.io](https://agentskills.io).
+> 
+# genielabs-io Skills
 
 Bridging Education and Innovation.
 
@@ -27,11 +29,18 @@ Then install the bundled plugin:
 /plugin install genielabs-skills@genielabs-io
 ```
 
+If you publish separate plugins later, individual skill installs would look like:
+
+```text
+/plugin install wrap@genielabs-io
+/plugin install unicode-guard@genielabs-io
+```
+
+This repository currently ships as a bundled plugin.
+
 After installing the plugin, you can use the skills by mentioning them naturally. For example:
 
 ```text
 Use the unicode-guard skill to scan the staged files for hidden Unicode characters.
 Use the wrap skill to summarize this session and extract reusable lessons.
 ```
-
-The current marketplace configuration bundles all skills into a single plugin, so per-skill install commands are not available yet. If you want commands such as `/plugin install wrap@genielabs-io` or `/plugin install unicode-guard@genielabs-io`, you need to split the plugin definitions in [`.claude-plugin/marketplace.json`](/Users/jungdopark/dev/workspace_codex/skills/.claude-plugin/marketplace.json).
