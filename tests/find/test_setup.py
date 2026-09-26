@@ -152,7 +152,8 @@ $second = Install-FindPythonPackages
         self.assertEqual(data["Second"]["Status"], "skipped")
         self.assertEqual(len(data["Calls"]), 2)
         pip_call = data["Calls"][1]
-        self.assertEqual(Path(pip_call["Python"]), self.skill / ".venv/Scripts/python.exe")
+        # Windows temp paths may use an 8.3 alias while PowerShell expands it.
+        self.assertTrue(Path(pip_call["Python"]).samefile(self.skill / ".venv/Scripts/python.exe"))
         self.assertEqual(pip_call["Arguments"][:3], ["-m", "pip", "install"])
 
     def test_incomplete_venv_is_not_overwritten(self):
