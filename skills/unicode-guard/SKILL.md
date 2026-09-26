@@ -1,5 +1,6 @@
 ---
 name: unicode-guard
+license: MIT
 description: Use when checking source files for hidden Unicode characters, Trojan Source style bidi controls, zero-width characters, or GlassWorm-style variation selectors in changed files or a specific path.
 ---
 

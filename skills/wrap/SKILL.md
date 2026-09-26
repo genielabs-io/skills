@@ -1,5 +1,6 @@
 ---
 name: wrap
+license: MIT
 description: Use when wrapping up a work session, summarizing changes, extracting reusable lessons, or promoting repeated lessons into durable memory files.
 ---
 
