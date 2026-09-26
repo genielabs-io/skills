@@ -1,0 +1,2 @@
+# Default: %LOCALAPPDATA%\find-skill\content-index.db
+# Override with EVERYTHING_CONTENT_DB or -Database; keep personal settings out of Git.
