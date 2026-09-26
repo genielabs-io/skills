@@ -68,6 +68,8 @@ $find 로컬에서 드론 수업 PPT와 PDF를 찾아줘.
 
 **[강사용 상세 안내: Drive 연결 · 내용 색인 생성/갱신 · 결과 예시 · 검색이 안 될 때](docs/find.md)**
 
+직접 설정하거나 개발하려면 [수동 설정과 고급 사용](docs/find.md#수동-설정과-고급-사용), [테스트 실행 안내](docs/find.md#개발-검증)를 참고하세요.
+
 ## Try In Claude Code
 
 ### Claude Code
@@ -93,6 +95,6 @@ Use the unicode-guard skill to scan the staged files for hidden Unicode characte
 Use the wrap skill to summarize this session and extract reusable lessons.
 ```
 
-## Find 개발 및 라이선스
+## License
 
-테스트 실행과 수동 설정은 [상세 안내의 개발 검증](docs/find.md#개발-검증)을 참고하세요. `find` 스킬에는 [MIT 라이선스](skills/find/LICENSE)가 적용됩니다.
+이 저장소의 모든 스킬과 문서는 [MIT 라이선스](LICENSE)로 배포합니다. 개별 스킬 폴더에도 라이선스 고지를 포함합니다. 외부 도구와 의존 패키지에는 각각의 라이선스가 적용됩니다.
