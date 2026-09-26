@@ -1,0 +1,4 @@
+interface:
+  display_name: "Local + Drive File Finder"
+  short_description: "로컬과 Google Drive에서 파일·강의자료 검색"
+  default_prompt: "Use $find to search my local files and connected Google Drive for lecture materials or references."

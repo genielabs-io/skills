@@ -1,0 +1,15 @@
+{
+  "max_text_chars": 2000000,
+  "max_pdf_pages": 1000,
+  "max_spreadsheet_cells": 200000,
+  "extract_timeout_seconds": 120,
+  "exclude_patterns": [
+    "c:/windows/*",
+    "c:/program files/*",
+    "c:/program files (x86)/*",
+    "*/appdata/local/packages/*",
+    "*/node_modules/*",
+    "*/.git/*",
+    "*/~$*"
+  ]
+}

@@ -1,0 +1,3 @@
+skills/find/** text eol=lf
+skills/find/scripts/*.cmd text eol=crlf
+tests/find/** text eol=lf
